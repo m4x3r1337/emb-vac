@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dev">
+      <UniqueIdentifier>{7b3a4fdf-287b-4b1f-a063-a0d502986ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp">
+      <UniqueIdentifier>{540e4157-86b7-470b-bc1d-8715acb4f56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp">
+      <UniqueIdentifier>{d20b103e-3ad7-445b-970f-c60d498be524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\util">
+      <UniqueIdentifier>{bc29c7e7-9386-4e66-af82-fcc752ca0a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\hpp\csgo">
+      <UniqueIdentifier>{58959e83-037c-4079-bb4c-5a118ebb9919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dev\cpp\csgo">
+      <UniqueIdentifier>{55d72b75-f177-4829-8bbd-a219f2258214}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bootstrap.cpp">
+      <Filter>dev</Filter>
+    </ClCompile>
+    <ClCompile Include="Bypasser.cpp">
+      <Filter>dev\cpp\csgo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MemoryUtil.h">
+      <Filter>dev\hpp\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Bypasser.h">
+      <Filter>dev\hpp\csgo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
