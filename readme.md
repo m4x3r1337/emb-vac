@@ -1,5 +1,2 @@
-Thx valve for this superior security. 
-
-Imagine Ring0 tier.
-
-Build: https://anonfiles.com/da6eV4E9o6/ExternalModuleBypasser_exe
+# emb-vac
+This development belongs to [0x000cb](https://github.com/0x000cb), and I just reloaded the repository :)
